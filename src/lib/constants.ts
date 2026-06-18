@@ -20,12 +20,12 @@ export const SORT_OPTIONS: { value: SortOption; label: string }[] = [
 ];
 
 export const SITE = {
-  name: "fixcmimi.al",
+  name: "inHouse Real Estate",
   tagline: "Fairly priced homes across Albania",
   description:
-    "fixcmimi.al is a real estate agency offering fairly priced homes for sale and rent across Albania.",
+    "inHouse Real Estate is a real estate agency offering fairly priced homes for sale and rent across Albania.",
   phone: "+355 4 224 8814",
-  email: "hello@fixcmimi.al",
+  email: "hello@inhouse-realestate.al",
   address: "Rr. Ibrahim Rugova 11, Tiranë, Albania",
 } as const;
 
