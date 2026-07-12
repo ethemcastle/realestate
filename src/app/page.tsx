@@ -99,10 +99,10 @@ export default function Home() {
 
         <div className="wrap hero-content">
           <span className="eyebrow">Tirana · Durrës · Vlorë · Sarandë</span>
-          <h1 className="hero-headline">
-            <span className="softer">Find where</span>
-            <span className="italic">you live next<em>.</em></span>
-          </h1>
+<h1 className="hero-headline">text changed</h1>
+
+
+
           <p className="hero-sub">
             A boutique real-estate agency working with a small, considered
             collection of properties across Albania — from a sea-facing apartment
