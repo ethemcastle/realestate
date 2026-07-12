@@ -618,13 +618,13 @@
   }
 }
 
-/* TICKER */
-.meridian .ticker {
-  background: var(--ink);
-  color: var(--paper);
+.meridian .footer {
+  background: var(--bg);
+  color: var(--ink);
   padding: 16px 0;
   overflow: hidden;
   position: relative;
+  }
 }
 .meridian .ticker-track {
   display: flex;
