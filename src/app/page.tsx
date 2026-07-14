@@ -103,7 +103,7 @@ export default function Home() {
             <span className="softer">Find where</span>
             <span className="italic">you live next<em>.</em></span>
           </h1>
-          <p className="hero-sub">
+              <p className="hero-sub">Changed</p>
             A boutique real-estate agency working with a small, considered
             collection of properties across Albania — from a sea-facing apartment
             in Vlorë to a hillside villa above Tirana.
