@@ -101,7 +101,7 @@ export default function Home() {
           <span className="eyebrow">Tirana · Durrës · Vlorë · Sarandë</span>
           <h1 className="hero-headline">
             <span className="softer">Find where</span>
-            <span className="italic">you live next<em>.</em></span>
+            <span className="italic">you live previous</span>
           </h1>
           <p className="hero-sub">
             A boutique real-estate agency working with a small, considered
