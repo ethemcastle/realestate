@@ -8,10 +8,10 @@ import "./meridian.css";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "fixcmimi.al — Fairly priced homes across Albania",
+    absolute: "inHouse Real Estate — Fairly priced homes across Albania",
   },
   description:
-    "fixcmimi.al is a real-estate agency offering fairly priced homes for sale and rent across Albania — Tirana, Durrës, Vlorë and Sarandë.",
+    "inHouse Real Estate is a real-estate agency offering fairly priced homes for sale and rent across Albania — Tirana, Durrës, Vlorë and Sarandë.",
 };
 
 const TICKER = [
@@ -29,17 +29,11 @@ const TICKER = [
 
 function BrandLogo() {
   return (
-    <>
-      <svg className="brand-logo-mark" viewBox="0 0 36 36" aria-hidden="true">
-        <rect width="36" height="36" rx="9" fill="currentColor" />
-        <path d="M6.5 18 L18 8 L29.5 18 Z" fill="#fff" />
-        <rect x="10.5" y="16.5" width="15" height="12" fill="#fff" />
-        <rect x="15" y="20" width="6" height="6" rx="0.8" fill="currentColor" />
-      </svg>
-      <span className="brand-logo-word">
-        <span className="accent">fix</span>cmimi<span className="accent">.</span>al
-      </span>
-    </>
+    <img
+      className="brand-logo-img"
+      src="/inhouse-logo.png"
+      alt="inHouse Real Estate"
+    />
   );
 }
 
@@ -52,7 +46,7 @@ export default function Home() {
           <div className="utility-left">
             <span>+355 4 224 8814</span>
             <span className="pipe">/</span>
-            <a href="mailto:hello@fixcmimi.al">hello@fixcmimi.al</a>
+            <a href="mailto:hello@inhouse-realestate.al">hello@inhouse-realestate.al</a>
             <span className="pipe addr">/</span>
             <span className="addr">Rr. Ibrahim Rugova 11, Tiranë</span>
           </div>
@@ -74,7 +68,7 @@ export default function Home() {
       {/* MAIN NAV */}
       <nav className="main">
         <div className="wrap nav-inner">
-          <Link href="/" className="brand-logo" aria-label="fixcmimi.al — home">
+          <Link href="/" className="brand-logo" aria-label="inHouse Real Estate — home">
             <BrandLogo />
           </Link>
           <ul className="nav-links">
@@ -466,7 +460,7 @@ export default function Home() {
                 className="albania-map"
                 viewBox="0 0 360 560"
                 xmlns="http://www.w3.org/2000/svg"
-                aria-label="Stylized map of Albania showing the four cities served by fixcmimi.al"
+                aria-label="Stylized map of Albania showing the four cities served by inHouse Real Estate"
               >
                 <g stroke="#E4E2DA" strokeWidth="0.5" fill="none">
                   <line x1="0" y1="80" x2="360" y2="80" />
@@ -675,7 +669,7 @@ export default function Home() {
                 <h3 className="agent-name">Endri Hoxha</h3>
                 <div className="agent-role">Founder · Principal broker</div>
                 <div className="agent-contact">
-                  <a href="mailto:endri@fixcmimi.al">endri@fixcmimi.al</a><br />
+                  <a href="mailto:endri@inhouse-realestate.al">endri@inhouse-realestate.al</a><br />
                   <a href="tel:+355676722101">+355 67 672 2101</a>
                 </div>
               </div>
@@ -690,7 +684,7 @@ export default function Home() {
                 <h3 className="agent-name">Era Krasniqi</h3>
                 <div className="agent-role">Senior agent · Coastal</div>
                 <div className="agent-contact">
-                  <a href="mailto:era@fixcmimi.al">era@fixcmimi.al</a><br />
+                  <a href="mailto:era@inhouse-realestate.al">era@inhouse-realestate.al</a><br />
                   <a href="tel:+355676722102">+355 67 672 2102</a>
                 </div>
               </div>
@@ -705,7 +699,7 @@ export default function Home() {
                 <h3 className="agent-name">Klejdi Marku</h3>
                 <div className="agent-role">Senior agent · Tiranë</div>
                 <div className="agent-contact">
-                  <a href="mailto:klejdi@fixcmimi.al">klejdi@fixcmimi.al</a><br />
+                  <a href="mailto:klejdi@inhouse-realestate.al">klejdi@inhouse-realestate.al</a><br />
                   <a href="tel:+355676722103">+355 67 672 2103</a>
                 </div>
               </div>
@@ -720,7 +714,7 @@ export default function Home() {
                 <h3 className="agent-name">Mira Sopi</h3>
                 <div className="agent-role">Buyer relations</div>
                 <div className="agent-contact">
-                  <a href="mailto:mira@fixcmimi.al">mira@fixcmimi.al</a><br />
+                  <a href="mailto:mira@inhouse-realestate.al">mira@inhouse-realestate.al</a><br />
                   <a href="tel:+355676722104">+355 67 672 2104</a>
                 </div>
               </div>
@@ -805,13 +799,13 @@ export default function Home() {
               daylight, the kitchen, anything. We'll write back with a short list
               worth your time, and a date to visit.
             </p>
-            <a href="mailto:hello@fixcmimi.al" className="btn">
+            <a href="mailto:hello@inhouse-realestate.al" className="btn">
               Start a conversation <span className="arrow">→</span>
             </a>
             <div className="inquire-channels">
               <div className="inquire-channel">
                 <span className="l">Email</span>
-                <span className="v">hello@fixcmimi.al</span>
+                <span className="v">hello@inhouse-realestate.al</span>
               </div>
               <div className="inquire-channel">
                 <span className="l">Phone</span>
@@ -873,7 +867,7 @@ export default function Home() {
           </div>
 
           <div className="foot-bottom">
-            <span>© 2026 fixcmimi.al sh.p.k. · NIPT L42107033K · All rights reserved</span>
+            <span>© 2026 inHouse Real Estate sh.p.k. · NIPT L42107033K · All rights reserved</span>
             <span>
               <a href="#">Terms</a> &nbsp;·&nbsp; <a href="#">Privacy</a> &nbsp;·&nbsp;{" "}
               <a href="#">Imprint</a>
