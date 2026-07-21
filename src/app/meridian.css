@@ -161,7 +161,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 18px 0;
+  height: 64px;
 }
 .meridian .logo {
   font-family: var(--display);
@@ -190,12 +190,14 @@
   line-height: 1;
 }
 .meridian .brand-logo-img {
-  height: 88px;
+  height: 96px;
   width: auto;
   display: block;
+  margin-block: -16px;
 }
 .meridian .brand-logo.on-dark .brand-logo-img {
-  height: 72px;
+  height: 64px;
+  margin-block: 0;
 }
 .meridian .nav-links {
   list-style: none;
