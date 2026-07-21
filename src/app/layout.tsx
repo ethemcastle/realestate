@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import {
   Geist,
   Geist_Mono,
@@ -62,7 +63,22 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-white text-slate-900">{children}</body>
+      <body className="min-h-full bg-white text-slate-900">
+        {children}
+        {/* Ybug feedback widget (https://ybug.io) — lets visitors report bugs /
+            leave feedback; each submission becomes a ticket on the Cadence board. */}
+        <Script id="ybug-feedback" strategy="afterInteractive">
+          {`(function () {
+            window.ybug_settings = { id: "8m648avjdpy3zzvf7v67" };
+            var ybug = document.createElement('script');
+            ybug.type = 'text/javascript';
+            ybug.async = true;
+            ybug.src = 'https://widget.ybug.io/button/' + window.ybug_settings.id + '.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ybug, s);
+          })();`}
+        </Script>
+      </body>
     </html>
   );
 }
